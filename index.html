@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IncNum Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1><u>Welcome to IncNumber Game</u></h1>
+  <h2><u>Game Instructions</u> :</h2>  
+  <ul>
+      <li>This game is between the user and the computer.</li>
+      <li>The game involves te user to enter a number after which the computer prints a number greater then the user.</li>
+      <li>The user has ten chances to win.</li>
+      <li>After all chances are over, you will get an option to continue or to quit.</li>
+      <li>To Start the Game, press Lets Begin.</li>
+  </ul>
+
+  <button id="button" onclick="GameStart()"> Let's Begin.</button>
+  
+  <div id="MainGame">
+    <div id="SubPart">   
+    </div>
+    <input type="text" id="fname"><br>
+    <button id="submit" onclick="computer()"> Challenge </button>
+    <div id="CompPart"> 
+    </div>
+    <div id="count">
+        
+    </div>
+ </div>
+
+ <div id="GameEnd">
+   <p>Thanks for playing, <br> The Game Ends here.</p>
+ </div>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
