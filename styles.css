@@ -25,35 +25,47 @@ ul li{
 #MainGame{
     background-color: crimson;
     height: 400px;
-    width: 35%;
+    width: 45%;
     display: none;  
 }
 
 #SubPart{
     padding: 10px;
     font-size: 20px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    float: left;
 }
 
 #fname{
     font-size: 15px;
     margin-left: 10px;
     width: 100px;
+    margin-bottom: 10px;
+    clear: both;
+    float: left;
 }
 
 #submit{
     font-size: 20px;
     margin:10px ;
+    margin-bottom: 10px;
+    clear: both;
+    float: left;
 }
 
 #CompPart{
     padding: 10px;
     font-size: 20px;
     width:100% ;
+    
 }
 
 #count{
     font-size: 20px;
     padding-left: 10px;
+    
+    float: left;
 }
 
 #GameEnd{
@@ -62,6 +74,14 @@ ul li{
   width: 100%;
   font-size: 30px;
   text-align: center;
+  animation: demo 4s ;
+  animation-iteration-count: 3;
   display: none;
-  
+}
+
+
+@keyframes demo{
+    0%{background-color: blueviolet;}
+    33%{background-color: burlywood;}
+    66%{background-color: blueviolet;}
 }

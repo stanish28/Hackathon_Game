@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IncNum Game</title>
+    <title>The Number Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1><u>Welcome to IncNumber Game</u></h1>
+  <h1><u>Welcome to The Number Game</u></h1>
   <h2><u>Game Instructions</u> :</h2>  
   <ul>
-      <li>This game is between the user and the computer.</li>
-      <li>The game involves te user to enter a number after which the computer prints a number greater then the user.</li>
-      <li>The user has ten chances to win.</li>
-      <li>After all chances are over, you will get an option to continue or to quit.</li>
+      <li>The game is played between the user and the computer.</li>
+      <li>The game requires user to enter a number and then the computer randomly generates a number greater than the user.</li>
+      <li>The user has maximum ten chances to win the game.</li>
+      <li>After all the chances are over, you will get an option to either continue the game or to quit.</li>
       <li>To Start the Game, press Lets Begin.</li>
   </ul>
 
@@ -22,10 +22,14 @@
   <div id="MainGame">
     <div id="SubPart">   
     </div>
-    <input type="text" id="fname"><br>
-    <button id="submit" onclick="computer()"> Challenge </button>
     <div id="CompPart"> 
     </div>
+    <div id="count">
+        
+    </div>
+    <input type="number" id="fname"><br>
+    <button id="submit" onclick="computer()"> Challenge </button>
+    
     <div id="count">
         
     </div>
