@@ -11,7 +11,7 @@ function GameStart(){
 
 function computer(){
 
-    if(count < 10){
+    if(count < 5){
     count = count + 1;
     a = document.getElementById("fname").value;
     if(a == ""){
@@ -21,7 +21,7 @@ function computer(){
     b = (parseInt(a) + ((Math.floor(Math.random()*100))+1));
     c = "The Computer's Value is :- " + b;
     document.getElementById("CompPart").innerHTML = c ;
-    document.getElementById("count").innerHTML = "Chances:- " + count + " / 10" ;
+    document.getElementById("count").innerHTML = "Chances:- " + count + " / 5" ;
     document.getElementById("fname").value = "";
     }
 }
